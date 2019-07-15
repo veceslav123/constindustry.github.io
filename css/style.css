@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mali&display=swap");
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mali", cursive !important;
+}
+
+.navbar {
+  letter-spacing: 0.2rem;
+}
+
+.navbar-brand {
+  color: rgb(255, 188, 4) !important;
+}
+
+.navbar-brand i {
+  color: rgb(255, 188, 4) !important;
+}
+
+#intro {
+  background: url("../img/photo1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #02024d;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #02024d;
+  }
+}
+
+.borders2 {
+  text-shadow: 4px 4px 8px black;
+  font-family: "Segoe UI", Arial, sans-serif !important;
+}
+
+.btncolor:hover {
+  background-color: rgba(228, 231, 7, 0.781) !important;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgb(255, 188, 4) !important;
+  border-bottom: 1px solid rgb(255, 188, 4) !important;
+}
+
+.phones {
+  color: white !important;
+}
+
+i.fa.fa-phone {
+  color: rgb(255, 188, 4) !important;
+}
+
+.fa-envelope {
+  color: rgb(255, 188, 4) !important;
+}
+
+.fonts {
+  font-family: "Patua One", cursive;
+}
+
+.hrline {
+  border: 1px solid rgb(255, 188, 4) !important;
+  width: 50%;
+}
+
+.money {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.tomate {
+  color: tomato;
+}
+
+.card {
+  min-height: 200px;
+}
+
+.buttonprod {
+  border-radius: 10px;
+}
+
+.photo.view {
+  border: 2px solid black;
+}
+.photo.view:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.footerbottoom h2 {
+  color: rgb(255, 188, 4) !important;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.social1 {
+  list-style-type: none;
+}
+
+.social1 i {
+  margin: 1%;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.social1 li {
+  display: inline;
+}
+
+.social1 {
+  padding-inline-start: 0;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: rgb(255, 188, 4) !important;
+}
+
+.icon-circle-md-primary {
+  background: #ffae00;
+  border-radius: 50%;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
+}
+
+footer {
+  background-color: #02024d !important;
+}
+
+@media screen and (max-width:933px){
+  
+  
+}
+
